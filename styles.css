@@ -98,7 +98,7 @@ a:hover { text-decoration: underline; }
     color: #FFFFFF;
         background: 
             linear-gradient(to bottom, rgba(43,45,66,0.85), rgba(43,45,66,0.85)),
-            url('csun-background.png') center / cover no-repeat fixed;
+            url('education-background.jpg') center / cover no-repeat fixed;
 }
 
 .site-footer {
