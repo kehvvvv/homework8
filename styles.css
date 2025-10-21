@@ -1,0 +1,115 @@
+*, *::before, *::after { box-sizing: border-box }
+
+/* Color Palette
+#2B2D42 - color 1 (Midnight)
+#8D99AE - color 2 (Slate)
+#EDF2F4 - color 3 (Off-White)
+#EF233C - color 4 (Cherry)
+*/
+
+/* Global styles 
+------------------------------------*/
+html { scroll-behavior: smooth; }
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: #2B2D42;
+    background: #FFFFFF
+}
+
+h1, h2, h3 { 
+    font-family: 'Merriweather', Georgia, serif;
+    margin: 0.2em 0;
+}
+h1 { font-size: 2.2rem; font-weight: 700; }
+h2 { font-size: 1.6rem; font-weight: 600; margin-top: 0; }
+h3 { font-size: 1.2rem; font-weight: 600; }
+
+a { color: #EF233C; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.site-header {
+    background: #2B2D42;
+    color: #FFFFFF;
+}
+.site-header h1,
+.site-header h2 { margin: 0; }
+
+.profile-pic { /*removed weight */
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.job { overflow: hidden; margin-bottom: 16px; }
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #EDF2F4; 
+    padding: 15px;
+}
+/* Education
+------------------------------------*/
+.education {
+    background: #8D99AE;
+    color: #FFFFFF;
+}
+
+.site-footer {
+    background: #2B2D42;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+.site-header .column-narrow,
+.site-header .column-wide {
+    float: none;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+.site-header .profile-pic {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 12px;
+    border-radius: 50%;
+}
+.site-header h1,
+.site-header h2 { margin: 6px 0; }
+
+.site-header p { 
+    color: #EDF2F4;
+    max-width: 100%;
+    margin: 10px 0 0;
+}
+
+.site-footer a { color: #EDF2F4; }
+.site-footer a:hover { text-decoration: underline; }
